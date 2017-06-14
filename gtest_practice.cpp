@@ -7,8 +7,8 @@ int MyAdd(int a, int b) {
   
 TEST(AddTest, PositiveValue) {
     EXPECT_EQ(3, MyAdd(1, 2));
-    ASSERT_EQ(4, MyAdd(1,1));
-    EXPECT_EQ(9, MyAdd(1,3));
+    //ASSERT_EQ(4, MyAdd(1,1));
+    //EXPECT_EQ(9, MyAdd(1,3));
 }
   
 TEST(AddTest, NegativeValue) {
